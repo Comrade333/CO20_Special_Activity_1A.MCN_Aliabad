@@ -56,10 +56,15 @@
 #define TAC_BEARD ["CUP_G_Tan_Scarf_Shades_Beard_Blonde","CUP_G_White_Scarf_Shades_Beard_Blonde","CUP_G_Beard_Shades_Black","CUP_G_ESS_KHK_Scarf_Tan_Beard","CUP_G_ESS_BLK_Scarf_White_Beard_Blonde","CUP_G_ESS_BLK_Scarf_Grn_Beard","CUP_G_ESS_KHK_Scarf_Tan_GPS_Beard_Blonde"]
 #define TAC_UNI ["CUP_I_B_PARA_Unit_6","CUP_I_B_PARA_Unit_7","CUP_I_B_PARA_Unit_2"]
 
+#define us_w_r ["CUP_arifle_M4A1_black","CUP_arifle_M4A1","CUP_arifle_M4A3_black","CUP_arifle_M4A3_desert"]
+#define us_a_r ["CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"]
+
+#define us_w_gr ["CUP_arifle_M4A1_GL_carryhandle_desert","CUP_arifle_M4A1_BUIS_desert_GL","CUP_arifle_M4A1_BUIS_GL"]
+#define us_a_gr ["CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"]
 
 kit_delta_pl = [
 	["<EQUIPEMENT >>  ",TAC_UNI,"CUP_V_B_Delta_2","tf_rt1523g","TRYK_H_PASGT_TAN",TAC_BEARD],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_M4A3_desert","CUP_30Rnd_556x45_Stanag",["CUP_muzzle_snds_M16_desert","CUP_acc_ANPEQ_2_desert",SIGHT,""]],
+	["<PRIMARY WEAPON >>  ",us_w_r,us_a_r,["CUP_muzzle_snds_M16_desert","CUP_acc_ANPEQ_2_desert",SIGHT,""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Mk23","CUP_12Rnd_45ACP_mk23",["CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
@@ -69,7 +74,7 @@ kit_delta_pl = [
 ];
 kit_delta_ftl = [
 	["<EQUIPEMENT >>  ","CUP_I_B_PARA_Unit_2","CUP_V_B_Delta_2","CUP_B_Kombat_Olive","TRYK_H_PASGT_TAN",TAC_BEARD],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_M4A1_GL_carryhandle_desert","CUP_30Rnd_556x45_Stanag",["CUP_muzzle_snds_M16_desert","","CUP_optic_RCO_desert",""]],
+	["<PRIMARY WEAPON >>  ",us_w_gr,us_a_gr,["CUP_muzzle_snds_M16_desert","","CUP_optic_RCO_desert",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Mk23","CUP_12Rnd_45ACP_mk23",["CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
@@ -79,7 +84,7 @@ kit_delta_ftl = [
 ];
 kit_delta_sl = [
 	["<EQUIPEMENT >>  ",TAC_UNI,"CUP_V_B_Delta_2","tf_rt1523g","TRYK_H_PASGT_TAN",TAC_BEARD],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_M4A3_desert","CUP_30Rnd_556x45_Stanag",["CUP_muzzle_snds_M16_desert","CUP_acc_ANPEQ_2_desert",SIGHT,""]],
+	["<PRIMARY WEAPON >>  ",us_w_r,us_a_r,["CUP_muzzle_snds_M16_desert","CUP_acc_ANPEQ_2_desert",SIGHT,""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Mk23","CUP_12Rnd_45ACP_mk23",["CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
@@ -99,7 +104,7 @@ kit_delta_ar = [
 ];
 kit_delta_gr = [
 	["<EQUIPEMENT >>  ",TAC_UNI,"CUP_V_B_Delta_1","CUP_B_Kombat_Olive","TRYK_H_PASGT_TAN",TAC_BEARD],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_M4A1_BUIS_desert_GL","CUP_30Rnd_556x45_Stanag",["CUP_muzzle_snds_M16_desert","CUP_acc_ANPEQ_2_desert",SIGHT,""]],
+	["<PRIMARY WEAPON >>  ",us_w_gr,us_a_gr,["CUP_muzzle_snds_M16_desert","CUP_acc_ANPEQ_2_desert",SIGHT,""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Mk23","CUP_12Rnd_45ACP_mk23",["CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_DELTA],
@@ -109,7 +114,7 @@ kit_delta_gr = [
 ];
 kit_delta_r = [
 	["<EQUIPEMENT >>  ",TAC_UNI,"CUP_V_B_Delta_1","CUP_B_Kombat_Olive","TRYK_H_PASGT_TAN",TAC_BEARD],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_M4A3_desert","CUP_30Rnd_556x45_Stanag",["CUP_muzzle_snds_M16_desert","CUP_acc_ANPEQ_2_desert",SIGHT,""]],
+	["<PRIMARY WEAPON >>  ",us_w_r,us_a_r,["CUP_muzzle_snds_M16_desert","CUP_acc_ANPEQ_2_desert",SIGHT,""]],
 	["<LAUNCHER WEAPON >>  ","rhs_weap_m72a7","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Mk23","CUP_12Rnd_45ACP_mk23",["CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_DELTA],
@@ -119,7 +124,7 @@ kit_delta_r = [
 ];
 kit_delta_jtac = [
 	["<EQUIPEMENT >>  ","CUP_I_B_PARA_Unit_6","CUP_V_B_Delta_2","tf_rt1523g","TRYK_H_PASGT_TAN",TAC_BEARD],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_M4A3_desert","CUP_30Rnd_556x45_Stanag",["CUP_muzzle_snds_M16_desert","CUP_acc_ANPEQ_2_desert",SIGHT,""]],
+	["<PRIMARY WEAPON >>  ",us_w_r,us_a_r,["CUP_muzzle_snds_M16_desert","CUP_acc_ANPEQ_2_desert",SIGHT,""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Mk23","CUP_12Rnd_45ACP_mk23",["CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",""]],
 	["<ASSIGNED ITEMS >>  ",ASSIGNED_ITEMS_JTAC],
